@@ -82,9 +82,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function displayChoices(user, computer) {
         userChoiceDisplay.textContent = `You chose: ${user}`;
-        document.getElementById("users-choice").src = `${user}.png`;
+        document.getElementById("users-choice").src = `${user}.webp`;
         document.getElementById("computers-choice").src =
-            `${computer}.png`;
+            `${computer}.webp`;
     }
 
     function displayResult(result) {
